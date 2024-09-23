@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="20dp">
+
+    <EditText
+        android:id="@+id/todo_title_et"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Title"
+        android:maxLines="1"/>
+
+    <EditText
+        android:id="@+id/todo_desc_et"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Description"
+        android:inputType="textMultiLine"
+        android:minLines="3"
+        android:gravity="top"/>
+
+    <EditText
+        android:id="@+id/group_list_et"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textMultiLine"
+        android:gravity="top|start"
+        android:background="@drawable/borders"
+        android:paddingHorizontal="8dp"
+        android:minLines="3"
+        android:maxLines="10"
+        android:scrollbars="vertical" />
+
+</LinearLayout>
